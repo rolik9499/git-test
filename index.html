@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+
+
+    <div class="container">
+        <div class="countDown">
+            <p class="countTimer">01:00</p>
+        </div>
+        <form class="buttons">
+            <button type="button" class="btn btn-start">Start game!</button>
+            <button type="button" class="btn btn-result " disabled>Check result</button>
+            <button type="button" class="btn btn-new ">New game</button>
+        </form>
+        <div class="puzzle-game">
+            <div class="puzzle game-start">
+                <div class="puzzle-box">
+                    <div class="pzl"></div>
+                </div>
+                <div class="puzzle-box">
+                    <div class="pzl"></div>
+                </div>
+                <div class="puzzle-box">
+                    <div class="pzl"></div>
+                </div>
+                <div class="puzzle-box">
+                    <div class="pzl"></div>
+                </div>
+                <div class="puzzle-box">
+                    <div class="pzl"></div>
+                </div>
+                <div class="puzzle-box">
+                    <div class="pzl"></div>
+                </div>
+                <div class="puzzle-box">
+                    <div class="pzl"></div>
+                </div>
+                <div class="puzzle-box">
+                    <div class="pzl"></div>
+                </div>
+                <div class="puzzle-box">
+                    <div class="pzl"></div>
+                </div>
+                <div class="puzzle-box">
+                    <div class="pzl"></div>
+                </div>
+                <div class="puzzle-box">
+                    <div class="pzl"></div>
+                </div>
+                <div class="puzzle-box">
+                    <div class="pzl"></div>
+                </div>
+                <div class="puzzle-box">
+                    <div class="pzl"></div>
+                </div>
+                <div class="puzzle-box">
+                    <div class="pzl"></div>
+                </div>
+                <div class="puzzle-box">
+                    <div class="pzl"></div>
+                </div>
+                <div class="puzzle-box">
+                    <div class="pzl"></div>
+                </div>
+            </div>
+            <div class="puzzle game-end">
+                <div class="puzzle-box"></div>
+                <div class="puzzle-box"></div>
+                <div class="puzzle-box"></div>
+                <div class="puzzle-box"></div>
+                <div class="puzzle-box"></div>
+                <div class="puzzle-box"></div>
+                <div class="puzzle-box"></div>
+                <div class="puzzle-box"></div>
+                <div class="puzzle-box"></div>
+                <div class="puzzle-box"></div>
+                <div class="puzzle-box"></div>
+                <div class="puzzle-box"></div>
+                <div class="puzzle-box"></div>
+                <div class="puzzle-box"></div>
+                <div class="puzzle-box"></div>
+                <div class="puzzle-box"></div>
+            </div>
+        </div><!-- puzzle-game -->
+    </div> <!-- container -->
+    <div class="modal">
+        <div class="modal-block modal-sure">
+            <p>You still have time, you sure? <span class="modal-time">00:00</span></p>
+            <form>
+                <button type="button" class="btn btn-closeSure ">Close</button>
+                <button type="button" class="btn btn-check">Check</button>
+            </form>
+        </div>
+        <div class="modal-block modal-lose">
+            <p>It's a pity, but you lost</p>
+            <form>
+                <button type="button" class="btn btn-closeLose">Close</button>
+            </form>
+        </div>
+        <div class="modal-block modal-win">
+            <p>Woohoo, well done, do it!</p>
+            <form>
+                <button type="button" class="btn btn-closeWin">Close</button>
+            </form>
+        </div>
+    </div>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="script/script.js"></script>
+</body>
+
+</html>
