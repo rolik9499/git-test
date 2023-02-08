@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(27, 27, 27);
+  }
+  .container {
+    width: 700px;
+    height: 100vh;
+    margin: 0 auto;
+    padding: 40px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .countTimer {
+    font-size: 80px;
+    font-weight: 500;
+  }
+  .buttons {
+    width: 400px;
+    height: 35px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .btn {
+    cursor: pointer;
+    margin: 15px 5px;
+    padding: 10px 15px;
+    background-color: rgb(235, 51, 51);
+    border: 1px solid rgb(207, 45, 45);
+    border-radius: 5px;
+    color: rgb(246, 251, 255);
+  }
+  .btn:hover {
+    background-color: rgb(207, 45, 45);
+  }
+  .btn:focus {
+    background-color: rgb(224, 4, 4);
+    box-shadow: 0 0 3px 0 rgb(224, 4, 4);
+    border: none;
+  }
+  .btn:disabled {
+    background-color: rgb(230, 111, 111);
+    border: none;
+  }
+  .btn-check {
+    background-color: rgb(48, 172, 48);
+    border: 1px solid rgb(20, 138, 20);
+  }
+  .btn-check:hover {
+    background-color: rgb(13, 136, 13);
+  }
+  .puzzle-game {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .puzzle {
+    width: 300px;
+    height: 300px;
+    background-color: rgb(238, 237, 237);
+    box-shadow: 0 0 10px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .modal {
+    display: none;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  .modal-block {
+    display: none;
+    width: 500px;
+    height: 175px;
+    margin: 0 auto;
+    padding: 30px 0 15px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(105, 105, 105);
+    border-radius: 5px;
+  }
+  .modal-block p {
+    padding: 20px;
+    border-top: 1px solid rgb(199, 198, 198);
+    border-bottom: 1px solid rgb(199, 198, 198);
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+  }
+  .modal-block form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .puzzle-box,
+  .pzl {
+    width: 75px;
+    height: 75px;
+  }
+  .pzl[value="1"] {
+    background-position: 0 0;
+  }
+  .pzl[value="2"] {
+    background-position: -75px 0;
+  }
+  .pzl[value="3"] {
+    background-position: -150px 0;
+  }
+  .pzl[value="4"] {
+    background-position: -225px 0;
+  }
+  .pzl[value="5"] {
+    background-position: 0 -75px;
+  }
+  .pzl[value="6"] {
+    background-position: -75px -75px;
+  }
+  .pzl[value="7"] {
+    background-position: -150px -75px;
+  }
+  .pzl[value="8"] {
+    background-position: -225px -75px;
+  }
+  .pzl[value="9"] {
+    background-position: 0 -150px;
+  }
+  .pzl[value="10"] {
+    background-position: -75px -150px;
+  }
+  .pzl[value="11"] {
+    background-position: -150px -150px;
+  }
+  .pzl[value="12"] {
+    background-position: -225px -150px;
+  }
+  .pzl[value="13"] {
+    background-position: 0 -225px;
+  }
+  .pzl[value="14"] {
+    background-position: -75px -225px;
+  }
+  .pzl[value="15"] {
+    background-position: -150px -225px;
+  }
+  .pzl[value="16"] {
+    background-position: -225px -225px;
+}
